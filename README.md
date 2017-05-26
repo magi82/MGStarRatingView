@@ -11,7 +11,8 @@ MGStarRatingView는 평가를 위한 뷰입니다. 간단하고 쉽게 구현 �
 이미지가 필요하지 않습니다. 그냥 컬러만 결정하면 됩니다.
 
 ## Sample
- <img src="https://github.com/magi82/MGStarRatingView/blob/master/Resources/sample.gif?raw=true" width="180">
+
+<img src="https://github.com/magi82/MGStarRatingView/blob/master/Resources/sample.gif?raw=true" width="240">
 
 
 ## Usage (Programmatically)
