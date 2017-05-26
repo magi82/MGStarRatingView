@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E38D2A988DC76A98935ED271E837DD9DE8729998",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E38D2A988DC76A98935ED271E837DD9DE8729998" : 9223372036854775807,
+    "81B71C6C4B0CEDC8A4596AB5886054EB2BC50657" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "8B074709-823F-4A93-B2C1-4769017F75E9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E38D2A988DC76A98935ED271E837DD9DE8729998" : "MGStarRatingView\/",
+    "81B71C6C4B0CEDC8A4596AB5886054EB2BC50657" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MGStarRatingView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MGStarRatingView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/magi82\/promiseplanrepo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "81B71C6C4B0CEDC8A4596AB5886054EB2BC50657"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/magi82\/MGStarRatingView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E38D2A988DC76A98935ED271E837DD9DE8729998"
+    }
+  ]
+}
