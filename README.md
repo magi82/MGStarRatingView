@@ -1,10 +1,10 @@
 # MGStarRatingView
 
 ![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
-[![Platform](https://img.shields.io/cocoapods/p/MGRelativeKit.svg?style=flat)](http://cocoapods.org/pods/MGRelativeKit)
-[![Version](https://img.shields.io/cocoapods/v/MGRelativeKit.svg?style=flat)](http://cocoapods.org/pods/MGRelativeKit)
+[![Platform](https://img.shields.io/cocoapods/p/MGStarRatingView.svg?style=flat)](http://cocoapods.org/pods/MGStarRatingView)
+[![Version](https://img.shields.io/cocoapods/v/MGStarRatingView.svg?style=flat)](http://cocoapods.org/pods/MGStarRatingView)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
-[![License](https://img.shields.io/cocoapods/l/MGRelativeKit.svg?style=flat)](http://cocoapods.org/pods/MGRelativeKit)
+[![License](https://img.shields.io/cocoapods/l/MGStarRatingView.svg?style=flat)](http://cocoapods.org/pods/MGStarRatingView)
 
 MGStarRatingView는 평가를 위한 뷰입니다. 간단하고 쉽게 구현 할수 있습니다. :sunny:
 
