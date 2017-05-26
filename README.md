@@ -5,7 +5,7 @@
 [![Version](https://img.shields.io/cocoapods/v/MGRelativeKit.svg?style=flat)](http://cocoapods.org/pods/MGRelativeKit)
 [![License](https://img.shields.io/cocoapods/l/MGRelativeKit.svg?style=flat)](http://cocoapods.org/pods/MGRelativeKit)
 
-*MGStarRatingView*는 평가를 위한 뷰입니다. 간단하고 쉽게 구현 할수 있습니다. :sunny:
+MGStarRatingView는 평가를 위한 뷰입니다. 간단하고 쉽게 구현 할수 있습니다. :sunny:
 
 프로그래밍 방식과 xib 방식을 지원 합니다.<br>
 이미지가 필요하지 않습니다. 그냥 컬러만 결정하면 됩니다.
