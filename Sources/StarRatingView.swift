@@ -51,6 +51,14 @@ public struct StarRatingAttribute {
   var spacing: CGFloat = 4
   var emptyColor: UIColor = .lightGray
   var fillColor: UIColor = .darkGray
+  
+  public init(type: StarRatingType, point: CGFloat, spacing: CGFloat, emptyColor: UIColor, fillColor: UIColor) {
+    self.type = type
+    self.point = point
+    self.spacing = spacing
+    self.emptyColor = emptyColor
+    self.fillColor = fillColor
+  }
 }
 
 @IBDesignable
