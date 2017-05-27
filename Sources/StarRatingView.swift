@@ -52,6 +52,8 @@ public struct StarRatingAttribute {
   var emptyColor: UIColor = .lightGray
   var fillColor: UIColor = .darkGray
   
+  public init() {}
+  
   public init(type: StarRatingType, point: CGFloat, spacing: CGFloat, emptyColor: UIColor, fillColor: UIColor) {
     self.type = type
     self.point = point

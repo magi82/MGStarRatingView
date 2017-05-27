@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'MGStarRatingView'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'MGStarRatingView is a view for rating.'
   s.homepage         = 'https://github.com/magi82/MGStarRatingView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
