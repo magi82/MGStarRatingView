@@ -4,6 +4,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/MGStarRatingView.svg?style=flat)](http://cocoapods.org/pods/MGStarRatingView)
 [![Version](https://img.shields.io/cocoapods/v/MGStarRatingView.svg?style=flat)](http://cocoapods.org/pods/MGStarRatingView)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![CI Status](https://travis-ci.org/magi82/MGStarRatingView.svg?branch=master)](https://travis-ci.org/magi82/MGStarRatingView)
 [![License](https://img.shields.io/cocoapods/l/MGStarRatingView.svg?style=flat)](http://cocoapods.org/pods/MGStarRatingView)
 
 MGStarRatingView is a view for rating.<br>
