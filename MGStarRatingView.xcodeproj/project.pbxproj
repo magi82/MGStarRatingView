@@ -7,11 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1010F0791EDD597800E71E5D /* MGStarRatingViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1010F0781EDD597800E71E5D /* MGStarRatingViewTests.swift */; };
+		1010F07B1EDD597800E71E5D /* MGStarRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D5FE281ED8307A00C5CDCE /* MGStarRatingView.framework */; };
 		102857A21ED830AF0070A943 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102857A11ED830AF0070A943 /* StarRatingView.swift */; };
 		10D5FE2D1ED8307A00C5CDCE /* MGStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D5FE2B1ED8307A00C5CDCE /* MGStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1010F07C1EDD597800E71E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10D5FE1F1ED8307A00C5CDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10D5FE271ED8307A00C5CDCE;
+			remoteInfo = MGStarRatingView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		1010F0761EDD597800E71E5D /* MGStarRatingViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGStarRatingViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1010F0781EDD597800E71E5D /* MGStarRatingViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGStarRatingViewTests.swift; sourceTree = "<group>"; };
+		1010F07A1EDD597800E71E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		102857A11ED830AF0070A943 /* StarRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StarRatingView.swift; path = Sources/StarRatingView.swift; sourceTree = SOURCE_ROOT; };
 		10D5FE281ED8307A00C5CDCE /* MGStarRatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGStarRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D5FE2B1ED8307A00C5CDCE /* MGStarRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGStarRatingView.h; sourceTree = "<group>"; };
@@ -19,6 +34,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1010F0731EDD597800E71E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1010F07B1EDD597800E71E5D /* MGStarRatingView.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10D5FE241ED8307A00C5CDCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -29,10 +52,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1010F0771EDD597800E71E5D /* MGStarRatingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				1010F0781EDD597800E71E5D /* MGStarRatingViewTests.swift */,
+				1010F07A1EDD597800E71E5D /* Info.plist */,
+			);
+			path = MGStarRatingViewTests;
+			sourceTree = "<group>";
+		};
 		10D5FE1E1ED8307A00C5CDCE = {
 			isa = PBXGroup;
 			children = (
 				10D5FE2A1ED8307A00C5CDCE /* MGStarRatingView */,
+				1010F0771EDD597800E71E5D /* MGStarRatingViewTests */,
 				10D5FE291ED8307A00C5CDCE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				10D5FE281ED8307A00C5CDCE /* MGStarRatingView.framework */,
+				1010F0761EDD597800E71E5D /* MGStarRatingViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +103,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		1010F0751EDD597800E71E5D /* MGStarRatingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1010F0801EDD597800E71E5D /* Build configuration list for PBXNativeTarget "MGStarRatingViewTests" */;
+			buildPhases = (
+				1010F0721EDD597800E71E5D /* Sources */,
+				1010F0731EDD597800E71E5D /* Frameworks */,
+				1010F0741EDD597800E71E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1010F07D1EDD597800E71E5D /* PBXTargetDependency */,
+			);
+			name = MGStarRatingViewTests;
+			productName = MGStarRatingViewTests;
+			productReference = 1010F0761EDD597800E71E5D /* MGStarRatingViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		10D5FE271ED8307A00C5CDCE /* MGStarRatingView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10D5FE301ED8307A00C5CDCE /* Build configuration list for PBXNativeTarget "MGStarRatingView" */;
@@ -93,9 +145,14 @@
 		10D5FE1F1ED8307A00C5CDCE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = magi;
 				TargetAttributes = {
+					1010F0751EDD597800E71E5D = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
 					10D5FE271ED8307A00C5CDCE = {
 						CreatedOnToolsVersion = 8.3.2;
 						LastSwiftMigration = 0830;
@@ -116,11 +173,19 @@
 			projectRoot = "";
 			targets = (
 				10D5FE271ED8307A00C5CDCE /* MGStarRatingView */,
+				1010F0751EDD597800E71E5D /* MGStarRatingViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1010F0741EDD597800E71E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10D5FE261ED8307A00C5CDCE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,6 +196,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1010F0721EDD597800E71E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1010F0791EDD597800E71E5D /* MGStarRatingViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		10D5FE231ED8307A00C5CDCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -141,7 +214,37 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		1010F07D1EDD597800E71E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10D5FE271ED8307A00C5CDCE /* MGStarRatingView */;
+			targetProxy = 1010F07C1EDD597800E71E5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		1010F07E1EDD597800E71E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MGStarRatingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.magi82.MGStarRatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1010F07F1EDD597800E71E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MGStarRatingViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.magi82.MGStarRatingViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		10D5FE2E1ED8307A00C5CDCE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -289,6 +392,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1010F0801EDD597800E71E5D /* Build configuration list for PBXNativeTarget "MGStarRatingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1010F07E1EDD597800E71E5D /* Debug */,
+				1010F07F1EDD597800E71E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		10D5FE221ED8307A00C5CDCE /* Build configuration list for PBXProject "MGStarRatingView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
