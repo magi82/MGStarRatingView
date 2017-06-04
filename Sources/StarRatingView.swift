@@ -92,6 +92,7 @@ public class StarRatingView: UIView {
     didSet {
       self.maxWidth = getRateToWidth(CGFloat(self.max))
       setNeedsDisplay()
+      invalidateIntrinsicContentSize()
     }
   }
   @IBInspectable
@@ -106,6 +107,7 @@ public class StarRatingView: UIView {
       self.emptyStar = makeStarImage(pt: self.point, spacing: self.spacing, color: self.emptyColor)
       self.fillStar = makeStarImage(pt: self.point, spacing: self.spacing, color: self.fillColor)
       setNeedsDisplay()
+      invalidateIntrinsicContentSize()
     }
   }
   @IBInspectable
@@ -116,6 +118,7 @@ public class StarRatingView: UIView {
       self.emptyStar = makeStarImage(pt: self.point, spacing: self.spacing, color: self.emptyColor)
       self.fillStar = makeStarImage(pt: self.point, spacing: self.spacing, color: self.fillColor)
       setNeedsDisplay()
+      invalidateIntrinsicContentSize()
     }
   }
   @IBInspectable
