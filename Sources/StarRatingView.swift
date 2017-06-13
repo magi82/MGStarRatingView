@@ -65,7 +65,7 @@ public struct StarRatingAttribute {
 
 @IBDesignable
 public class StarRatingView: UIView {
-  public var delegate: StarRatingDelegate?
+  public weak var delegate: StarRatingDelegate?
 
   @IBInspectable
   public var type: StarRatingType = .rate {
