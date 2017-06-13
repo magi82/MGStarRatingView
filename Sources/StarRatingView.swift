@@ -42,7 +42,7 @@ public enum StarRatingType {
 }
 
 public protocol StarRatingDelegate: class {
-  func StarRatingValueChanged(value: CGFloat)
+  func StarRatingValueChanged(view: StarRatingView, value: CGFloat)
 }
 
 public struct StarRatingAttribute {
@@ -83,14 +83,14 @@ public class StarRatingView: UIView {
   @IBInspectable
   public var current: CGFloat = 0 {
     didSet {
-      self.currentWidth = getRateToWidth(self.current)
+      self.currentWidth = rateToWidth(self.current)
       setNeedsDisplay()
     }
   }
   @IBInspectable
   public var max: Int = 0 {
     didSet {
-      self.maxWidth = getRateToWidth(CGFloat(self.max))
+      self.maxWidth = rateToWidth(CGFloat(self.max))
       setNeedsDisplay()
       invalidateIntrinsicContentSize()
     }
@@ -102,8 +102,8 @@ public class StarRatingView: UIView {
         self.spacing = 0
       }
 
-      self.currentWidth = getRateToWidth(self.current)
-      self.maxWidth = getRateToWidth(CGFloat(self.max))
+      self.currentWidth = rateToWidth(self.current)
+      self.maxWidth = rateToWidth(CGFloat(self.max))
       self.emptyStar = makeStarImage(pt: self.point, spacing: self.spacing, color: self.emptyColor)
       self.fillStar = makeStarImage(pt: self.point, spacing: self.spacing, color: self.fillColor)
       setNeedsDisplay()
@@ -113,8 +113,8 @@ public class StarRatingView: UIView {
   @IBInspectable
   public var point: CGFloat = 0 {
     didSet {
-      self.currentWidth = getRateToWidth(self.current)
-      self.maxWidth = getRateToWidth(CGFloat(self.max))
+      self.currentWidth = rateToWidth(self.current)
+      self.maxWidth = rateToWidth(CGFloat(self.max))
       self.emptyStar = makeStarImage(pt: self.point, spacing: self.spacing, color: self.emptyColor)
       self.fillStar = makeStarImage(pt: self.point, spacing: self.spacing, color: self.fillColor)
       setNeedsDisplay()
@@ -163,7 +163,7 @@ public class StarRatingView: UIView {
     self.frame.size = self.intrinsicContentSize
   }
 
-  private func getRateToWidth(_ rate: CGFloat) -> CGFloat {
+  private func rateToWidth(_ rate: CGFloat) -> CGFloat {
     var width = self.point * CGFloat(rate)
     width = width + CGFloat(ceil(rate) - 1) * self.spacing
 
@@ -248,7 +248,7 @@ public class StarRatingView: UIView {
       }
 
       self.current = count
-      delegate?.StarRatingValueChanged(value: count)
+      delegate?.StarRatingValueChanged(view: self, value: count)
       break
 
     case .half:
@@ -276,8 +276,8 @@ public class StarRatingView: UIView {
         self.current += 0.5
       }
 
-      self.currentWidth = getRateToWidth(self.current)
-      delegate?.StarRatingValueChanged(value: self.current)
+      self.currentWidth = rateToWidth(self.current)
+      delegate?.StarRatingValueChanged(view: self, value: self.current)
       break
 
     case .fill:
@@ -297,8 +297,8 @@ public class StarRatingView: UIView {
       }
 
       self.current = ceil(count)
-      self.currentWidth = getRateToWidth(self.current)
-      delegate?.StarRatingValueChanged(value: self.current)
+      self.currentWidth = rateToWidth(self.current)
+      delegate?.StarRatingValueChanged(view: self, value: self.current)
       break
     }
   }

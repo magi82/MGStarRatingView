@@ -36,7 +36,7 @@ self.view.addSubview(starView)
 - Delegate implementation
 
 ```swift
-func StarRatingValueChanged(value: CGFloat) {
+func StarRatingValueChanged(view: StarRatingView, value: CGFloat) {
   // use value
 }
 ```
@@ -56,7 +56,7 @@ The default type is `rate`.
 
 ```swift
 // A delegate for receiving values.
-public var delegate: StarRatingDelegate?
+public weak var delegate: StarRatingDelegate?
 
 // A type that represents a value.
 // There are three kinds. (rate, half, fill)
@@ -97,13 +97,13 @@ public var fillColor: UIColor
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
 
 ```ruby
-pod 'MGStarRatingView', '~> 0.1.5'
+pod 'MGStarRatingView', '~> 0.2.0'
 ```
 
 - **For iOS 8+ projects** with [Carthage](https://github.com/Carthage/Carthage):
 
 ```ruby
-github "magi82/MGStarRatingView" ~> 0.1.5
+github "magi82/MGStarRatingView" ~> 0.2.0
 ```
 
 ## Author
