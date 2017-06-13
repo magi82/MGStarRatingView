@@ -97,13 +97,13 @@ public var fillColor: UIColor
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
 
 ```ruby
-pod 'MGStarRatingView'
+pod 'MGStarRatingView', '~> 0.1.5'
 ```
 
 - **For iOS 8+ projects** with [Carthage](https://github.com/Carthage/Carthage):
 
 ```ruby
-github "magi82/MGStarRatingView"
+github "magi82/MGStarRatingView" ~> 0.1.5
 ```
 
 ## Author
