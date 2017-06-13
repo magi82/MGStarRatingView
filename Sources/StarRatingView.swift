@@ -41,7 +41,7 @@ public enum StarRatingType {
   }
 }
 
-public protocol StarRatingDelegate {
+public protocol StarRatingDelegate: class {
   func StarRatingValueChanged(value: CGFloat)
 }
 
