@@ -27,7 +27,9 @@ let attribute = StarRatingAttribute(type: .rate,
       point: 30,
       spacing: 10,
       emptyColor: .red,
-      fillColor: .blue)
+      fillColor: .blue,
+      emptyImage: nil,
+      fillImage: nil)
 starView.configure(attribute, current: 0, max: 5)
 starView.delegate = self
 self.view.addSubview(starView)
@@ -80,6 +82,12 @@ public var emptyColor: UIColor
 
 // The color value of the full star.
 public var fillColor: UIColor
+
+// The image object of the empty star.
+var emptyImage: UIImage?
+
+// The image object of the full star.
+var fillImage: UIImage?
 ```
 
 ## Aid
@@ -97,13 +105,13 @@ public var fillColor: UIColor
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
 
 ```ruby
-pod 'MGStarRatingView', '~> 0.2.0'
+pod 'MGStarRatingView', '~> 0.3.0'
 ```
 
 - **For iOS 8+ projects** with [Carthage](https://github.com/Carthage/Carthage):
 
 ```ruby
-github "magi82/MGStarRatingView" ~> 0.2.0
+github "magi82/MGStarRatingView" ~> 0.3.0
 ```
 
 ## Author
