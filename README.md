@@ -1,6 +1,6 @@
 # MGStarRatingView
 
-![Swift](https://img.shields.io/badge/Swift-3.0-orange.svg)
+![Swift](https://img.shields.io/badge/Swift-4.2-orange.svg)
 [![Platform](https://img.shields.io/cocoapods/p/MGStarRatingView.svg?style=flat)](http://cocoapods.org/pods/MGStarRatingView)
 [![Version](https://img.shields.io/cocoapods/v/MGStarRatingView.svg?style=flat)](http://cocoapods.org/pods/MGStarRatingView)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
@@ -96,8 +96,7 @@ var fillImage: UIImage?
 
 ## Requirements
 
-- Swift 3.0+
-- Xcode 8.0+
+- Swift 4.0+
 - iOS 8.0+
 
 ## Installation
@@ -105,13 +104,13 @@ var fillImage: UIImage?
 - **For iOS 8+ projects** with [CocoaPods](https://cocoapods.org):
 
 ```ruby
-pod 'MGStarRatingView', '~> 0.3.0'
+pod 'MGStarRatingView', '~> 1.0.0'
 ```
 
 - **For iOS 8+ projects** with [Carthage](https://github.com/Carthage/Carthage):
 
 ```ruby
-github "magi82/MGStarRatingView" ~> 0.3.0
+github "magi82/MGStarRatingView" ~> 1.0.0
 ```
 
 ## Author
