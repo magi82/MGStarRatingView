@@ -8,7 +8,7 @@
 
 import Foundation
 
-extension StarRatingView {
+public extension StarRatingView {
     
     /// Flip the View to support Right to Left Languages based on the view semantic
     func flipViewIfNeeded() {
