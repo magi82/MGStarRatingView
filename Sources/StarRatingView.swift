@@ -277,6 +277,7 @@ public class StarRatingView: UIView {
         if self.current > 0 {
             guard let fillStar = self.fillStar else { return }
             fillStar.drawAsPattern(in: CGRect(x: 0, y: 0, width: self.currentWidth, height: fillStar.size.height))
+            flipViewIfNeeded()
         }
     }
         
