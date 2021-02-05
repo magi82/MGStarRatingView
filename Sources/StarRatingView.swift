@@ -279,7 +279,7 @@ public class StarRatingView: UIView {
             fillStar.drawAsPattern(in: CGRect(x: 0, y: 0, width: self.currentWidth, height: fillStar.size.height))
         }
     }
-    
+        
     private func updateLocation(_ location: CGPoint) {
         switch self.type {
         case .rate:
@@ -392,3 +392,4 @@ public class StarRatingView: UIView {
         }
     }
 }
+
