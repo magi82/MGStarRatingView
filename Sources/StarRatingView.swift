@@ -280,7 +280,7 @@ public class StarRatingView: UIView {
             flipViewIfNeeded()
         }
     }
-        
+    
     private func updateLocation(_ location: CGPoint) {
         switch self.type {
         case .rate:
@@ -392,10 +392,8 @@ public class StarRatingView: UIView {
             setNeedsDisplay()
         }
     }
-}
-
-// MARK: - StarRatingView+RTLSupport
-public extension StarRatingView {
+    
+    // MARK: - StarRatingView+RTLSupport
     
     /// Flip the View to support Right to Left Languages based on the view semantic
     func flipViewIfNeeded() {
@@ -419,5 +417,4 @@ public extension StarRatingView {
     private func flip() {
         self.transform = CGAffineTransform(scaleX: -1.0, y: 1.0);
     }
-    
 }
