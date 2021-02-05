@@ -11,6 +11,7 @@
 		1010F07B1EDD597800E71E5D /* MGStarRatingView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D5FE281ED8307A00C5CDCE /* MGStarRatingView.framework */; };
 		102857A21ED830AF0070A943 /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102857A11ED830AF0070A943 /* StarRatingView.swift */; };
 		10D5FE2D1ED8307A00C5CDCE /* MGStarRatingView.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D5FE2B1ED8307A00C5CDCE /* MGStarRatingView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		84236A3625CDD3450026A331 /* StarRatingView+RTLSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84236A3525CDD3450026A331 /* StarRatingView+RTLSupport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		10D5FE281ED8307A00C5CDCE /* MGStarRatingView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGStarRatingView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		10D5FE2B1ED8307A00C5CDCE /* MGStarRatingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGStarRatingView.h; sourceTree = "<group>"; };
 		10D5FE2C1ED8307A00C5CDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84236A3525CDD3450026A331 /* StarRatingView+RTLSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarRatingView+RTLSupport.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 			children = (
 				10D5FE2B1ED8307A00C5CDCE /* MGStarRatingView.h */,
 				102857A11ED830AF0070A943 /* StarRatingView.swift */,
+				84236A3525CDD3450026A331 /* StarRatingView+RTLSupport.swift */,
 				10D5FE2C1ED8307A00C5CDCE /* Info.plist */,
 			);
 			path = MGStarRatingView;
@@ -165,6 +168,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 10D5FE1E1ED8307A00C5CDCE;
@@ -208,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84236A3625CDD3450026A331 /* StarRatingView+RTLSupport.swift in Sources */,
 				102857A21ED830AF0070A943 /* StarRatingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
